@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MegaDesk
 build_property.RootNamespace = MegaDesk
-build_property.ProjectDir = c:\Users\Laker\OneDrive\Desktop\GroupMegaRAzor\MegaDesk\
+build_property.ProjectDir = C:\Users\jenni\Documents\Documents\CIT\CIT 365\MegaDeskMvc\megaDeskMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Laker\OneDrive\Desktop\GroupMegaRAzor\MegaDesk
+build_property.MSBuildProjectDirectory = C:\Users\jenni\Documents\Documents\CIT\CIT 365\MegaDeskMvc\megaDeskMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/DeskQuote/Create.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/DeskQuote/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVza1F1b3RlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/DeskQuote/Delete.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/DeskQuote/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVza1F1b3RlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/DeskQuote/Details.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/DeskQuote/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVza1F1b3RlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/DeskQuote/Edit.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/DeskQuote/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVza1F1b3RlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/DeskQuote/Index.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/DeskQuote/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVza1F1b3RlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/Error.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/Index.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/Privacy.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/_ViewImports.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/_ViewStart.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Laker/OneDrive/Desktop/GroupMegaRAzor/MegaDesk/Pages/Shared/_Layout.cshtml]
+[C:/Users/jenni/Documents/Documents/CIT/CIT 365/MegaDeskMvc/megaDeskMVC/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2tj1572dig
