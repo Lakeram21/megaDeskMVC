@@ -72,7 +72,7 @@ namespace MegaDesk.Model
              // determine the rush hour
              switch(this.Delivery.DeliveryName)
              {
-                 case "Rush 3 days":
+                 case "Rush 3 Day":
                      if(area < 1000)
                      {
                          final_price= final_price + 60;
@@ -86,7 +86,7 @@ namespace MegaDesk.Model
                          final_price= final_price+80;
                      }
                      break;
-                 case "Rush 5 days":
+                 case "Rush 5 day":
                       if(area < 1000)
                      {
                          final_price= final_price + 40;
@@ -100,7 +100,7 @@ namespace MegaDesk.Model
                          final_price= final_price+60;
                      }
                      break;
-                 case "Rush 7 days":
+                 case "Rush 7 Day":
                       if(area < 1000)
                      {
                          final_price= final_price + 30;

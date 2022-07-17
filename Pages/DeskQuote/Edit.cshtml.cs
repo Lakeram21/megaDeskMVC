@@ -29,14 +29,18 @@ namespace MegaDesk.Pages_DeskQuote
                 return NotFound();
             }
 
-            var deskquote =  await _context.DeskQuote.FirstOrDefaultAsync(m => m.DeskQuoteId == id);
+            DeskQuote deskquote =  await _context.DeskQuote
+            .Include(desk=>desk.Desk)
+            .Include(delivery=>delivery.Delivery)
+            .FirstOrDefaultAsync(m => m.DeskQuoteId == id);
+            
             if (deskquote == null)
             {
                 return NotFound();
             }
             DeskQuote = deskquote;
-           ViewData["DeliveryId"] = new SelectList(_context.Set<Delivery>(), "DeliveryId", "DeliveryId");
-           ViewData["DeskId"] = new SelectList(_context.Set<Desk>(), "DeskId", "DeskId");
+           ViewData["DeliveryId"] = new SelectList(_context.Set<Delivery>(), "DeliveryId", "DeliveryName");
+           ViewData["DesktopMaterialId"] = new SelectList(_context.Set<DesktopMaterial>(), "DesktopMaterialId", "DesktopMaterialName");
             return Page();
         }
 
@@ -44,10 +48,10 @@ namespace MegaDesk.Pages_DeskQuote
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            // if (!ModelState.IsValid)
+            // {
+            //     return Page();
+            // }
 
             _context.Attach(DeskQuote).State = EntityState.Modified;
 

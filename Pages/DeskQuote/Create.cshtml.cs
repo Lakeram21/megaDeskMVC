@@ -35,19 +35,15 @@ namespace MegaDesk.Pages_DeskQuote
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-        //   if (!ModelState.IsValid)
-        //     {
-        //         return Page();
-        //     }
-
+            Desk.DesktopMaterial= await _context.DesktopMaterial.FindAsync(Desk.DesktopMaterialId);
             _context.Desk.Add(Desk);
             await _context.SaveChangesAsync();
 
             DeskQuote.DeskId = Desk.DeskId;
-            
+            DeskQuote.Delivery = await _context.Delivery.FindAsync(DeskQuote.DeliveryId);
             DeskQuote.Desk = Desk;
             DeskQuote.QuoteDate = DateTime.Now;
-            DeskQuote.QuotePrice = 1900;
+            DeskQuote.QuotePrice = DeskQuote.calculateQuote();
             _context.DeskQuote.Add(DeskQuote);
             await _context.SaveChangesAsync();
 
